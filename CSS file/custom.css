@@ -1,0 +1,26 @@
+/* GOOGLE FONT */
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:ital,wght@0,400;0,500;1,600&family=Roboto:ital,wght@0,500;1,700&display=swap");
+/* GOOGLE FONT */
+
+.g-font {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik Iso', cursive;
+}
+
+/* POSITION */
+.translate-end{
+    translate: 0% 16%;
+}
+
+.translate-end-2{
+    translate: 0% 28%;
+}
+/* POSITION */
+
+/* COLOR */
+.darkest{
+    background-color: #000000;
+}
+/* COLOR */
