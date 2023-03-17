@@ -9,6 +9,12 @@
     font-family: 'Rubik Iso', cursive;
 }
 
+/* HEIGHT AND WIDTH */
+.h-45{
+    height: 39%;
+}
+/* HEIGHT AND WIDTH */
+
 /* POSITION */
 .translate-end{
     translate: 0% 16%;
@@ -20,7 +26,23 @@
 /* POSITION */
 
 /* COLOR */
+.normal-dark{
+    background-color: #0D0D0D;
+}
 .darkest{
     background-color: #000000;
 }
 /* COLOR */
+
+/* GAP */
+.px-6{
+    padding-left: 5rem;
+}
+
+.ms-8{
+    margin-left: 11rem;
+}
+.ms-7{
+    margin-left: 10rem;
+}
+/* GAP */
