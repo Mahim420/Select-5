@@ -48,115 +48,261 @@
     <main class="bg-dark">
       <section class="p-5 bg-dark">
         <div class="row">
-            <div class="col-8">
-                <div class="row">
-                    <article class="col"><div class="card" style="width: 18rem;">
-                        <img  src="Images/player-1.jpeg" class="card-img-top img-fluid" alt="...">
-                        <div class="card-body normal-dark">
-                          <h5 class="card-title text-white">Lionel Messi</h5>
-                          <button type="button" class="btn btn-primary btn-lg">Select</button>
-                        </div>
-                      </div>
-                    </article>
-                    <article class="col"><div class="card" style="width: 18rem;">
-                        <img src="Images/player-2.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body normal-dark">
-                          <h5 class="card-title text-white">Neymer Jr</h5>
-                          <button type="button" class="btn btn-primary btn-lg">Select</button>
-                        </div>
-                      </div>
-                    </article>
-                    <article class="col"><div class="card" style="width: 18rem;">
-                        <img src="Images/player-3.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body normal-dark">
-                          <h5 class="card-title text-white">Kylian Mbappe</h5>
-                          <button type="button" class="btn btn-primary btn-lg">Select</button>
-                        </div>
-                      </div>
-                    </article>
+          <div id="main-body" class="col-8">
+            <div class="row">
+              <article class="col">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="Images/player-1.jpeg"
+                    class="card-img-top img-fluid"
+                    alt="..."
+                  />
+                  <div class="card-body normal-dark">
+                    <h5 id="messi" class="card-title text-white">
+                      Lionel Messi
+                    </h5>
+                    <button
+                      id="messi-btn"
+                      type="button"
+                      class="btn btn-primary btn-lg"
+                    >
+                      Select
+                    </button>
+                  </div>
                 </div>
-                <div class="row gy-4">
-                    <article class="col"><div class="card" style="width: 18rem;">
-                        <img src="Images/player-4.png" class="card-img-top" alt="...">
-                        <div class="card-body normal-dark">
-                          <h5 class="card-title text-white">Lewandowski</h5>
-                          <button type="button" class="btn btn-primary btn-lg">Select</button>
-                        </div>
-                      </div>
-                    </article>
-                    <article class="col"><div class="card" style="width: 18rem;">
-                        <img src="Images/player-5.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body normal-dark">
-                          <h5 class="card-title text-white">M. Salah</h5>
-                          <button type="button" class="btn btn-primary btn-lg">Select</button>
-                        </div>
-                      </div>
-                    </article>
-                    <article class="col"><div class="card" style="width: 18rem;">
-                        <img src="Images/player-6.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body normal-dark">
-                          <h5 class="card-title text-white">Lucakku</h5>
-                          <button type="button" class="btn btn-primary btn-lg">Select</button>
-                        </div>
-                      </div>
-                    </article>
+              </article>
+              <article class="col">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="Images/player-2.jpeg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body normal-dark">
+                    <h5 id="neymer" class="card-title text-white">Neymer Jr</h5>
+                    <button
+                      id="neymer-btn"
+                      type="button"
+                      class="btn btn-primary btn-lg"
+                    >
+                      Select
+                    </button>
+                  </div>
                 </div>
-                <div class="row gy-4">
-                    <article class="col"><div class="card" style="width: 18rem;">
-                        <img src="Images/player-7.jpg" class="card-img-top" alt="...">
-                        <div class="card-body normal-dark">
-                          <h5 class="card-title text-white">Alisson Becker</h5>
-                          <button type="button" class="btn btn-primary btn-lg">Select</button>
-                        </div>
-                      </div>
-                    </article>
-                    <article class="col"><div class="card" style="width: 18rem;">
-                        <img src="Images/player-8.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body normal-dark">
-                          <h5 class="card-title text-white">Lautaro Martinej</h5>
-                          <button type="button" class="btn btn-primary btn-lg">Select</button>
-                        </div>
-                      </div>
-                    </article>
-                    <article class="col"><div class="card" style="width: 18rem;">
-                        <img src="Images/player-9.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body normal-dark">
-                          <h5 class="card-title text-white">Vinicious Jr</h5>
-                          <button type="button" class="btn btn-primary btn-lg">Select</button>
-                        </div>
-                      </div>
-                    </article>
+              </article>
+              <article class="col">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="Images/player-3.jpeg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body normal-dark">
+                    <h5 id="mbappe" class="card-title text-white">
+                      Kylian Mbappe
+                    </h5>
+                    <button
+                      id="mbappe-btn"
+                      type="button"
+                      class="btn btn-primary btn-lg"
+                    >
+                      Select
+                    </button>
+                  </div>
                 </div>
+              </article>
             </div>
-            <div class="col-4">
-                <div class="normal-dark rounded h-25">
-                    <h1 class="text-white text-center">Select-V</h1>    
-                    <hr class="text-white fw-bold">
+            <div class="row gy-4">
+              <article class="col">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="Images/player-4.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body normal-dark">
+                    <h5 id="lewan" class="card-title text-white">
+                      Lewandowski
+                    </h5>
+                    <button
+                      id="lewan-btn"
+                      type="button"
+                      class="btn btn-primary btn-lg"
+                    >
+                      Select
+                    </button>
+                  </div>
                 </div>
-                
-                <div class="normal-dark rounded h-45">
-                    <h1 class="text-white text-center">Budget</h1>    
-                    <hr class="text-white fw-bold">
-                    <p class="text-white px-6">Per Player : <input class="darkest text-white" type="number" name="" id=""></p>
-                    <button type="button" class="btn mt-3 btn-primary ms-8 btn-lg">Large button</button>
-                    <p class="text-white ms-7 mt-4">Player Expense : $ 5000</p>
-                    <p class="px-6 text-white">Manager : <input class="darkest text-white" type="number" name="" id=""></p>
-                    <p class="px-6 text-white">Coach : <input class="darkest text-white ms-3 text-white" type="number" name="" id=""></p>
-                    <button type="button" class="btn mt-3 btn-primary ms-8 btn-lg">Large button</button>
-                    <p class="text-white ms-7 mt-4">Total :  $ 5000</p>
+              </article>
+              <article class="col">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="Images/player-5.jpeg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body normal-dark">
+                    <h5 id="salah" class="card-title text-white">M. Salah</h5>
+                    <button
+                      id="salah-btn"
+                      type="button"
+                      class="btn btn-primary btn-lg"
+                    >
+                      Select
+                    </button>
+                  </div>
                 </div>
+              </article>
+              <article class="col">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="Images/player-6.jpeg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body normal-dark">
+                    <h5 id="luka" class="card-title text-white">Lucakku</h5>
+                    <button
+                      id="luka-btn"
+                      type="button"
+                      class="btn btn-primary btn-lg"
+                    >
+                      Select
+                    </button>
+                  </div>
+                </div>
+              </article>
             </div>
+            <div class="row gy-4">
+              <article class="col">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="Images/player-7.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body normal-dark">
+                    <h5 id="becker" class="card-title text-white">
+                      Alisson Becker
+                    </h5>
+                    <button
+                      id="becker-btn"
+                      type="button"
+                      class="btn btn-primary btn-lg"
+                    >
+                      Select
+                    </button>
+                  </div>
+                </div>
+              </article>
+              <article class="col">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="Images/player-8.jpeg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body normal-dark">
+                    <h5 id="lautaro" class="card-title text-white">
+                      Lautaro Martinej
+                    </h5>
+                    <button
+                      id="lautaro-btn"
+                      type="button"
+                      class="btn btn-primary btn-lg"
+                    >
+                      Select
+                    </button>
+                  </div>
+                </div>
+              </article>
+              <article class="col">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="Images/player-9.jpeg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body normal-dark">
+                    <h5 id="vini" class="card-title text-white">
+                      Vinicious Jr
+                    </h5>
+                    <button
+                      id="vini-btn"
+                      type="button"
+                      class="btn btn-primary btn-lg"
+                    >
+                      Select
+                    </button>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="normal-dark rounded h-25">
+              <h1 class="text-white text-center">Select-V</h1>
+              <hr class="text-white fw-bold" />
+              <ol id="list-item" class="p-5">
+
+              </ol>
+            </div>
+
+            <div class="normal-dark rounded h-45">
+              <h1 class="text-white text-center">Budget</h1>
+              <hr class="text-white fw-bold" />
+              <p class="text-white px-6">
+                Per Player :
+                <input
+                  id="player-input"
+                  class="darkest text-white"
+                  type="number"
+                  name=""
+                  id=""
+                />
+              </p>
+              <button
+                id="calc"
+                type="button"
+                class="btn mt-3 btn-primary ms-8 btn-lg"
+              >
+                Calculate
+              </button>
+              <p class="text-white ms-7 mt-4">
+                Player Expense : $<span id="player-price">00</span>
+              </p>
+              <p class="px-6 text-white">
+                Manager :
+                <input id="manager-input" class="darkest text-white" type="number" name=""/>
+              </p>
+              <p class="px-6 text-white">
+                Coach :
+                <input
+                  class="darkest text-white ms-3 text-white"
+                  type="number"
+                  name=""
+                  id="cosch-input"
+                />
+              </p>
+              <button id="calc-total" type="button" class="btn mt-3 btn-primary ms-8 btn-lg">
+                Calculate-Total
+              </button>
+              <p class="text-white ms-7 mt-4">Total : $<span id="total">00</span></p>
+            </div>
+          </div>
         </div>
       </section>
-      <hr class="text-white">
+      <hr class="text-white" />
       <footer class="bg-dark d-flex justify-content-center">
         <p class="text-white">Copyright @ 2022 All Rights Reserved.</p>
       </footer>
     </main>
-    
 
     <!-- BOOTSTRAP JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <!-- BOOTSTRAP JS -->
+    <!-- MY JS FILE -->
+    <script src="JavaScript-file/function.js"></script>
+    <!-- MY JS FILE -->
   </body>
 </html>
